@@ -5,15 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabella di Quadrati e Cubi</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2a3d66;
+        }
+
         table {
             border-collapse: collapse;
             width: 50%;
-            margin: 20px 0;
+            margin: 20px auto;
+            background-color: #fff;
         }
+
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid #2a3d66;
             text-align: center;
             padding: 8px;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        select, button {
+            padding: 8px;
+            font-size: 16px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #4a6d8c;
+        }
+
+        button {
+            background-color: #4a6d8c;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2a3d66;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -61,8 +103,9 @@
     }
     ?>
     <br>
-    <div class="button-container">
-        <button onclick="window.location.href='index.php'">Torna al sommario</button>
+    <div class="buttons">
+        <button onclick="window.location.href='esercizio2.html'">Torna indietro</button>
+        <button onclick="window.location.href='index.html'">Torna al sommario</button>
     </div>
     <br>
     <p>Spiegazione del codice:

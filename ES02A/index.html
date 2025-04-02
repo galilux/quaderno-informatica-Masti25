@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Completa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2a3d66;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4a6d8c;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: #2a3d66;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4a6d8c;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2a3d66;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        form input {
+            margin: 10px;
+            padding: 8px;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        .form-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .back-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benvenuto nella mia Home Page</h1>
+    <a href="ES02A/index.html">ES02A - Accesso a pagina riservata</a>
+    <br>
+    <p>La pagina è una Home Page semplice con un messaggio di benvenuto ("Benvenuto nella mia Home Page"). In fondo alla pagina c'è un link che porta l'utente a un'altra pagina chiamata "index.html", situata nella sottocartella "/ES02A". Questo link potrebbe essere per accedere a una pagina riservata.</p>
+
+
+    <h2>Accesso alla pagina riservata</h2>
+    <form action="login.php" method="post">
+        <label for="username">Nome utente:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Accedi</button><br>
+    </form>
+
+    <div class="back-links">
+        <br>
+        <button onclick="window.location.href='../index.html'">Torna al sommario</button>
+        <p> </p>
+        <a href="javascript:history.back()">Torna Indietro</a>
+    </div>
+
+    <br>
+    <p>Questo codice HTML crea una pagina di login con due campi obbligatori: uno per il nome utente e uno per la password. Quando l'utente preme il pulsante "Accedi", i dati vengono inviati tramite il metodo POST al server per essere elaborati dal file PHP login.php. Il form è stato progettato in modo che l'utente debba compilare tutti i campi prima di poter inviare il form, grazie all'attributo required.</p>
+</body>
+</html>
