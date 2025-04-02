@@ -26,6 +26,7 @@ Per eseguire il progetto, seguire i passaggi descritti di seguito:
 
 A questo punto, l'installazione e la configurazione del progetto sono completate e il sistema è pronto all'uso.
 
-Versioe del progetto 1.2:
-bug: Esercizio del libro 1,2,3 pag 182 probelemi di esecuzione. 
-inserimento degli esercizi DB, normalizzazione, museo, Treni, Banca, Marittima, Atletal(work in progress), Vendite(work in progress)
+Versioe del progetto 1.3:
+Fix: aggiornamento dei database tvi, multe, fossili, marittimo, banca il popolamento automatico tabelle.
+Bug: Esercizio del libro 1,2,3 pag 182 probelemi di esecuzione. 
+inserimento degli esercizi DB, normalizzazione, museo, Treni, Banca, Marittima, Atletal(work in progress), Vendite(work in progress).

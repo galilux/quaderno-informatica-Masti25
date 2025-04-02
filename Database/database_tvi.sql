@@ -74,3 +74,12 @@ CREATE TABLE IF NOT EXISTS Biglietti (
     prezzo DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (codice_prenotazione) REFERENCES Prenotazioni(id) ON DELETE CASCADE
 );
+INSERT INTO Treni (numero_treno, stazione_partenza, orario_partenza, stazione_arrivo, orario_arrivo) 
+VALUES
+(101, 'Milano Centrale', '08:30:00', 'Roma Termini', '12:15:00'),
+(202, 'Torino Porta Nuova', '09:15:00', 'Venezia Santa Lucia', '12:45:00'),
+(303, 'Napoli Centrale', '07:45:00', 'Firenze Santa Maria Novella', '10:30:00'),
+(404, 'Bologna Centrale', '10:00:00', 'Genova Piazza Principe', '12:20:00'),
+(505, 'Verona Porta Nuova', '14:20:00', 'Trieste Centrale', '17:00:00'),
+(606, 'Palermo Centrale', '06:30:00', 'Catania Centrale', '09:10:00'),
+(707, 'Bari Centrale', '13:50:00', 'Lecce', '15:45:00');
