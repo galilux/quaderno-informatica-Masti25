@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS ComuneDB;
+CREATE DATABASE IF NOT EXISTS 202425_5ia_abdelhamid_ComuneDB;
 USE ComuneDB;
 
 -- Tabella Agenti

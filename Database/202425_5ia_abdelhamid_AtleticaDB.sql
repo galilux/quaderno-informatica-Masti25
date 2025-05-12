@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS AtleticaDB;
+CREATE DATABASE IF NOT EXISTS 202425_5ia_abdelhamid_AtleticaDB;
 USE AtleticaDB;
 
 -- Tabella Gare

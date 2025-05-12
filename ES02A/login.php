@@ -1,7 +1,7 @@
 <?php
 // Dati di login predefiniti
 $utente = "Masti25";
-$password = "1234";
+$password = "Masti1234";
 
 // Recupero dei dati inviati dal form
 $nomeUtente = $_POST['username'] ?? '';

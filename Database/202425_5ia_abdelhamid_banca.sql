@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS BancaDB;
+CREATE DATABASE IF NOT EXISTS 202425_5ia_abdelhamid_BancaDB;
 USE BancaDB;
 
 -- Tabella Filiali

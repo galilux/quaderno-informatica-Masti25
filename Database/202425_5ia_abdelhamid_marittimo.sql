@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS MarittimoDB;
+CREATE DATABASE IF NOT EXISTS 202425_5ia_abdelhamid_MarittimoDB;
 USE MarittimoDB;
 
 -- Tabella Navi

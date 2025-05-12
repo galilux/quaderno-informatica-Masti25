@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS FossiliDB;
+202425_5ia_abdelhamid_CREATE DATABASE IF NOT EXISTS 202425_5ia_abdelhamid_FossiliDB;
 USE FossiliDB;
 
 -- Tabella Fossili
