@@ -85,7 +85,10 @@
             <th>Codice Filiale</th><th>Nome</th><th>Città</th><th>Patrimonio Totale (€)</th>
         </tr>
         <?php
+        include "Config.php";
+
         $sql = "SELECT * FROM Filiali";
+        
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {

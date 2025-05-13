@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "Masti"; // Modifica se necessario
 $password = "Masti1234"; // Modifica se necessario
-$dbname = "202425_5ia_abdelhamid_AtleticaDB";
+$dbname = "202425_5ia_abdelhamid_atleticadb";
 
 // Creazione connessione
 $conn = new mysqli($servername, $username, $password, $dbname);

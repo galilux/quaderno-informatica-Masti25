@@ -1,6 +1,4 @@
-<?php
-include 'config.php';
-?>
+
 
 <!DOCTYPE html>
 <html lang="it">
@@ -23,6 +21,8 @@ include 'config.php';
             <th>ID Gara</th><th>Nome</th><th>Città</th><th>Data</th>
         </tr>
         <?php
+        include "Config.php";
+
         $sql = "SELECT * FROM Gare";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {

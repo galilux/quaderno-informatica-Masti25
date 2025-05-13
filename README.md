@@ -50,3 +50,14 @@ Fix: aggiornamento dei database tvi, multe, fossili, marittimo, banca il popolam
 Bug: Esercizio del libro 1,2,3 pag 182 probelemi di esecuzione. 
 
 inserimento degli esercizi DB, normalizzazione, museo, Treni, Banca, Marittima, Atletal(work in progress), Vendite(work in progress).
+
+Versioe del progetto 1.4:
+
+Fix: sistemazione dei database name.
+
+Bug: Esercizio del libro 2,3 pag 182 probelemi di esecuzione, creazione automaticare del database wordpress.
+
+aggiunte: esercizi querydaross, Joomla, wordpress, creazione automatica dei database(tranne wordpress)
+
+
+

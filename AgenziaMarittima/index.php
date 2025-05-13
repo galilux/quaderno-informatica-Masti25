@@ -95,6 +95,8 @@
                 <th>ID</th><th>Nome</th><th>Nazionalità</th>
             </tr>
             <?php
+                    include "Config.php";
+
             $sql = "SELECT * FROM Navi";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {

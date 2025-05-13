@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestione Multe</title>
@@ -85,9 +86,14 @@
             <th>Codice Infrazione</th><th>Data</th><th>Agente</th><th>Infrazione</th><th>Importo (€)</th><th>Targa Auto</th>
         </tr>
         <?php
+                include "Config.php";
+
         $sql = "SELECT i.codice_infrazione, i.data, a.nominativo AS agente, i.denominazione, i.importo, i.targa_auto 
                 FROM Infrazioni i
                 JOIN Agenti a ON i.matricola_agente = a.matricola";
+                
+         include "Config.php";
+
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {

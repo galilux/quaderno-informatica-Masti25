@@ -86,7 +86,8 @@
             <th>Data Ritrovamento</th><th>Località</th><th>Latitudine</th><th>Longitudine</th><th>Archivio</th>
         </tr>
         <?php
-        $sql = "SELECT * FROM Fossili";
+        include "Config.php";
+        $sql = "SELECT * FROM fossili";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {

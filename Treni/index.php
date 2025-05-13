@@ -86,6 +86,8 @@
             <th>Stazione Arrivo</th><th>Orario Arrivo</th>
         </tr>
         <?php
+        include "Config.php";
+
         $sql = "SELECT * FROM Treni";
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
