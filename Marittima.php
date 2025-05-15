@@ -125,8 +125,8 @@
         <h1>
             Test del database.
         </h1>
-        <a href="AgenziaMarittima/index.php" class="back-button">Esercizio Agenzia Marittima </a>
     </div>
+    <a href="AgenziaMarittima/index.php" class="back-button">Esercizio Agenzia Marittima </a>
     <a href="index.html" class="back-button">Torna al Sommario</a>
 
 </body>
