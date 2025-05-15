@@ -57,7 +57,15 @@ Fix: sistemazione dei database name.
 
 Bug: Esercizio del libro 2,3 pag 182 probelemi di esecuzione, creazione automaticare del database wordpress.
 
-aggiunte: esercizi querydaross, Joomla, wordpress, creazione automatica dei database(tranne wordpress)
+aggiunte: esercizi query Da Ros, Joomla, wordpress, creazione automatica dei database
 
+Versioe del progetto 1.4:
 
+Rimozione creazione automatica dei database joomla e wordpresss
+
+fix: bottoni, style in query Da Ros
+
+Bug: Esercizio del libro 2,3 pag 182 probelemi di esecuzione, creazione automaticare del database wordpress.
+
+Aggiunte: Messaggio di conferma di aggiunta o errore nell'aggiunta del database. 
 
